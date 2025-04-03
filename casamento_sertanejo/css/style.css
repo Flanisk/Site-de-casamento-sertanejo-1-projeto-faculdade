@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(155, 135, 117);
+    display: flex;
+    padding: 15px;
+}
+.logo{
+    width: 100px;
+    border-radius: 60%;
+}
+.list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    list-style: none;
+}
+.list li{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+.list li a{
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    transition: 0.5s;
+}
+.list li a:hover{
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0%;
+    transition: 0.5s;}
+
+/*-----------------------------header-----------------------------*/
+.header{
+    height: 80vh;
+    background-image: url(../img/pexels-enesbeydilli-29746616.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 15px 15px #999999;
+}
+
+.gradiente_header{
+    border: 5px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(158,153,245);
+    background: linear-gradient(90deg, rgba(158,153,245,0.19091386554621848) 0%, rgba(0,121,255,0) 38%);
+}
+
+.gradiente_header_texto{
+    margin: 0 auto;
+    color: white;
+}
+
+.gradiente_header_texto h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 0,75px;
+}
+
+.gradiente_header_texto h2{
+    font-family: 'Times New Roman', Times, serif    ;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 0,75px;
+
+}
+
+.experiência{
+    justify-content: center;
+    display: flex;
+    padding: 80px 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
+/*cards*/
+
+.cards_section{
+    display: flex;
+    justify-content: center;
+    padding: 180px;
+}
+
+.card{
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 11px  11px 11px 11px;
+    width: 272px;
+    padding: 35px;
+    box-shadow: 12px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    
+    border-color: #000000;
+}
+.card-body{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.card-title{
+    color: #bd5f28;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+    
+    font-style: italic; 
+     
+}
+.card-text{
+    line-height: 1.4;
+    margin: 10px 0px 0px 0px; 
+    font-size: 17px;
+    color: #000000;
+    
+    
+}.card-body_2{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.card-title{
+    color: #bd5f28;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+    
+    font-style: italic; 
+     
+}
+.card-text{
+    line-height: 1.4;
+    margin: 10px 0px 0px 0px; 
+    font-size: 17px;
+    color: #000000;
+    
+}
+
+
+/*por que*/
+.porque_escolher{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(155, 135, 117);
+    margin: 0 auto;
+    padding: 35px ;
+    display: flex;
+    font-size: 23px;
+    box-shadow: 0px 15px 15px #999999;
+}
+
+.porque_escolher img{
+    padding: 19px 19px 85px 19px;
+    background: no-repeat center;
+    background-size: cover; 
+    max-width:1000px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: aliceblue;
+}
+/*comentarios*/
+
+
+.sim_fizumaclassesóparaisso{
+    padding: 80px 80px 0px;
+    justify-content: center;
+    display: flex;
+}
+
+.section_comentarios{
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+.card_comentario{
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 11px  11px 11px 11px;
+    width: 272px;
+    padding: 35px;
+    box-shadow: 12px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    
+    border-color: #000000;
+  }
+
+
+/*Footer*/
+.footer{
+    background-color: #1d1d1d;
+    padding: 40px;
+    color: white;
+    font-size: small;
+    justify-content: center;
+    display: flex;
+
+}
